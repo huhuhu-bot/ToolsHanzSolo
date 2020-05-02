@@ -29,12 +29,12 @@ read enter
 exit
 }
 
-echo -e $blue"         _   _                   _____       _       
-echo -e $blue"        | | | |                 /  ___|     | |      
-echo -e $blue"        | |_| | __ _ _ __  ____ \ `--.  ___ | | ___  
-echo -e $blue"        |  _  |/ _` | '_ \|_  /  `--. \/ _ \| |/ _ \ 
-echo -e $blue"        | | | | (_| | | | |/ /  /\__/ / (_) | | (_) |
-echo -e $blue"        \_| |_/\__,_|_| |_/___| \____/ \___/|_|\___/ 
+echo -e $blue"         _   _                   _____       _       "
+echo -e $blue"        | | | |                 /  ___|     | |      "
+echo -e $blue"        | |_| | __ _ _ __  ____ \ `--.  ___ | | ___  "
+echo -e $blue"        |  _  |/ _` | '_ \|_  /  `--. \/ _ \| |/ _ \ "
+echo -e $blue"        | | | | (_| | | | |/ /  /\__/ / (_) | | (_) |"
+echo -e $blue"        \_| |_/\__,_|_| |_/___| \____/ \___/|_|\___/ "
 echo -e $red"         ***********************************************"
 echo -e $white"         # $red toolkit for hackers v.01        $white               #"
 echo -e $red"         # $red happy install guys                $red             #"
@@ -43,9 +43,11 @@ echo -e $red"         # $white greetz :cewe cantik uwu>_<" $red#"
 echo -e $white"         # $white copyright : ./Hanz Solo     $white                #"
 echo -e $red"         # $white thanks to :anime 2D girl            #"
 echo -e $blue"         ***********************************************"
+
 sleep 1
 echo -e $red" ganteng but psycopath no recode sc babi bukan sebentar bikinya"
 sleep 1
+
 echo ""
 echo -e $blue" 0)exit
 echo -e $blue" 01) Red Hawk"
