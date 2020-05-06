@@ -23,12 +23,12 @@ exit
 }
 
 echo -e $red"         ==============================================="
-echo -e $white"        toolkit for hackers v2.0       
-echo -e $red"          happy install guys                
-echo -e $white"        contact: hanzsolo404@gmail.com 
-echo -e $red"          greetz :cewe cantik uwu>_<         
-echo e- $white"        copyright : ./Hanz Solo     
-echo -e $red"          thanks to : anime 2D girl
+echo -e $white"        toolkit for hackers v2.0"       
+echo -e $red"          happy install guys"                
+echo -e $white"        contact: hanzsolo404@gmail.com" 
+echo -e $red"          greetz :cewe cantik uwu>_<"         
+echo e- $white"        copyright : ./Hanz Solo"     
+echo -e $red"          thanks to : anime 2D girl"
 echo -e $blue"        ==============================================="
 
 sleep 1
