@@ -5,15 +5,6 @@
 # Bersihkan Layar
 clear
 
-blue='\e[0;34'
-cyan='\e[0;36m'
-green='\e[0;34m'
-okegreen='\033[92m'
-lightgreen='\e[1;32m'
-white='\e[1;37m'
-red='\e[1;31m'
-yellow='\e[1;33m'
-
 ###################################################
 # CTRL C
 ###################################################
@@ -31,14 +22,14 @@ read enter
 exit
 }
 
-echo -e $red"         ***********************************************"
-echo -e $white"         # $red toolkit for hackers v2.0  $white#"
-echo -e $red"         # $red happy install guys  $red#"
-echo -e $white"         # $red contact: hanzsolo404@gmail.com $white#"
-echo -e $red"         # $white greetz :cewe cantik uwu>_< $red#"
-echo e- $white"         # $white copyright : ./Hanz Solo     $white#"
-echo -e $red"         # $white thanks to :anime 2D girl $red#"
-echo -e $blue"         ***********************************************"
+echo -e $red"         ==============================================="
+echo -e $white"        toolkit for hackers v2.0       
+echo -e $red"          happy install guys                
+echo -e $white"        contact: hanzsolo404@gmail.com 
+echo -e $red"          greetz :cewe cantik uwu>_<         
+echo e- $white"        copyright : ./Hanz Solo     
+echo -e $red"          thanks to : anime 2D girl
+echo -e $blue"        ==============================================="
 
 sleep 1
 echo -e $red" ganteng but psycopath"
